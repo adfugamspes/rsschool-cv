@@ -38,3 +38,11 @@ Vilnius, Lithuania, 2012-2016
 - **English** – Upper-Intermediate (B2)
 - **Russian, Belarusian** – Native
 - **Hebrew** – Beginner
+
+## Code Example
+
+```
+function greet() {
+ return "hello world!";  
+}
+```
