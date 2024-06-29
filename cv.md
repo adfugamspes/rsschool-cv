@@ -35,7 +35,7 @@ European Humanities University,
 Vilnius, Lithuania, 2012-2016
 
  ## Languages
-- **English** – Upper-Intermediate (B2)
+- **English** – Upper-Intermediate
 - **Russian, Belarusian** – Native
 - **Hebrew** – Beginner
 
