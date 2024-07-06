@@ -1,13 +1,95 @@
+
 body {
-  background-color: lightblue;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  background: grey;
+
 }
 
-h1 {
-  color: white;
-  text-align: center;
+.container {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav {
+  width: 100%;
+}
+
+.header-info {
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+
+}
+
+.nav-item {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 6%;
+}
+
+.my-photo-image {
+  width: 400px;
+  height: 400px;
+}
+
+li {
+  list-style: none;
+}
+
+.main-container {
+  display: flex;
+  max-width: 1440px;
+  flex: 1;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container-additional-info {
+  display: flex;
+  flex: 0 0 400px;
+  max-width: 400px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.container-main-info {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  flex: 1;
+}
+h3 {
+  text-align: left;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+  padding: 0 0 0 40px;
+}
+
+.rs-school-image {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
