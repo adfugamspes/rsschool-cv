@@ -5,7 +5,6 @@ body {
   margin: 0 auto;
   background-color: white;
   font-family: 'Roboto', sans-serif;
-  background: grey;
 
 }
 
@@ -22,8 +21,11 @@ body {
  width: 100%;
  justify-content: center;
  align-items: center;
- text-align: center;
+ text-align: left;
+}
 
+.header-info-name {
+  padding-left: 100px;
 }
 
 .nav-item {
@@ -37,7 +39,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 6%;
+  padding: 30px 6%;
+  background-color: #EEEEEE;
 }
 
 .my-photo-image {
@@ -57,6 +60,7 @@ li {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  background-color: #EEEEEE;
 }
 
 .container-additional-info {
@@ -74,17 +78,19 @@ li {
   width: auto;
   flex: 1;
 }
-h3 {
+h3,
+h4 {
   text-align: left;
+  padding: 20px;
 }
 
 p {
-  padding: 0 0 0 40px;
+  padding: 0 0 0 0px;
 }
 
 .rs-school-image {
   width: 100px;
-  height: 100px;
+  height: 60px;
 }
 
 .footer-container {
@@ -92,4 +98,28 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #343945;
+  color: whitesmoke;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.additional-info {
+  background-color: #343945;
+  color: whitesmoke;
+}
+
+.header-info {
+  background-color: #FFCC33;
+  color: #333333;
+
+}
+
+a:visited {
+  color: inherit;
+}
+
+nav a {
+  color: inherit;
+
 }
