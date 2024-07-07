@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   min-height: 100vh;
@@ -25,6 +32,7 @@ body {
 }
 
 .header-info-name {
+  padding-top: 100px;
   padding-left: 100px;
 }
 
@@ -44,12 +52,20 @@ body {
 }
 
 .my-photo-image {
-  width: 400px;
-  height: 400px;
+  position: relative;
+  display: flex;
+  width: 30%;
+  height: 40%
 }
 
 li {
-  list-style: none;
+  list-style: square;
+  line-height: 1.5;
+}
+
+.main-info {
+  width: 70%;
+
 }
 
 .main-container {
@@ -65,27 +81,34 @@ li {
 
 .container-additional-info {
   display: flex;
-  flex: 0 0 400px;
-  max-width: 400px;
   margin: 0 auto;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
 
+aside {
+  width: 30%;
+  height: 100%;
+}
+
 .container-main-info {
   display: block;
   margin: 0 auto;
-  width: auto;
-  flex: 1;
+
 }
 h3,
 h4 {
+  display: inline-block;
   text-align: left;
-  padding: 20px;
+  padding: 10px;
+  border-bottom: 3px solid #FFCC33;
+  padding-bottom: 5px;
+  
 }
 
 p {
-  padding: 0 0 0 0px;
+  padding-left: 30px;
+  line-height: 1.5;
 }
 
 .rs-school-image {
@@ -123,3 +146,18 @@ nav a {
   color: inherit;
 
 }
+
+@media screen and (max-width: 666px) {
+  .nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 3%;
+  background-color: #EEEEEE;
+  font-size: smaller;
+  }
+  }
+
+  .education {
+    
+  }
