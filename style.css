@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav {
+  width: 100%;
+}
+
+.header-info {
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+ text-align: left;
+}
+
+.header-info-name {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.nav-item {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 6%;
+  background-color: #EEEEEE;
+}
+
+.my-photo-image {
+  position: relative;
+  display: flex;
+  width: 30%;
+  height: 40%
+}
+
+li {
+  list-style: square;
+  line-height: 1.5;
+}
+
+.main-info {
+  width: 70%;
+
+}
+
+.main-container {
+  display: flex;
+  max-width: 1440px;
+  flex: 1;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #EEEEEE;
+}
+
+.container-additional-info {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+aside {
+  width: 30%;
+  height: 100%;
+}
+
+.container-main-info {
+  display: block;
+  margin: 0 auto;
+
+}
+h3,
+h4 {
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 3px solid #FFCC33;
+  padding-bottom: 5px;
+  
+}
+
+p {
+  padding-left: 30px;
+  line-height: 1.5;
+}
+
+.rs-school-image {
+  width: 100px;
+  height: 60px;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #343945;
+  color: whitesmoke;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.additional-info {
+  background-color: #343945;
+  color: whitesmoke;
+}
+
+.header-info {
+  background-color: #FFCC33;
+  color: #333333;
+
+}
+
+a:visited {
+  color: inherit;
+}
+
+nav a {
+  color: inherit;
+
+}
+
+@media screen and (max-width: 666px) {
+  .nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 3%;
+  background-color: #EEEEEE;
+  font-size: smaller;
+  }
+  }
+
+  .education {
+    
+  }
