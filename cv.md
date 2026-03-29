@@ -5,7 +5,15 @@
 - **Email:** report.shor@gmail.com
 - **Phone number:** +972 53 2222591
 - **Discord/Telegram:** @adfugamspes
- 
+
+## Skills
+
+- Java
+- Selenium
+- Postman
+- Appium
+- SQL
+
 ## Work Experience 
 
 Infinya Packaging Ltd (2024-2025)
