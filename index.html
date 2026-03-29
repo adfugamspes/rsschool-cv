@@ -14,7 +14,7 @@
                 <nav class="nav">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                        <li class="nav-item"><a href="#skiils" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                         <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                         <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                         <li class="nav-item"><a href="#work-experience" class="nav-link">Work Experience</a></li>
@@ -37,25 +37,27 @@
             <div class="main-container">
                 <aside class="additional-info">
                     <div class="container-additional-info">
-                        <div class="education">
+                        <section class="education">
                             <a id="education"></a>
                                 <h3>Education</h3>
+                                <p><b>Software QA Manual &amp Automation</b>
+                                    <br>Tel-Ran Haifa, Israel
+                                    <br>2025-2026</p>
                                 <p><b>Business Analysis for IT</b>
                                     <br> IT-Academy, Minsk, Belarus
                                     <br> 2021</p>
                                 <p><b>Bachelor of International Law</b>
                                     <br>European Humanities University, Vilnius, Lithuania
                                 <br>2012-2016</p>
-
                             </div>
                             <div class="skills">
                             <a id="skills"></a>
                         <h3>Skills</h3>
                         <ul>
-                            <li>analytical/data-driven/strategic thinking</li>
-                            <li>business communication</li>
-                            <li>HTML, CSS, JS</li>
-                            <li>Confluence, JIRA, Kibana</li>
+                            <li>Java</li>
+                            <li>Selenium</li>
+                            <li>Appium</li>
+                            <li>Postman</li>
                         </ul>
                     </div>
                     
@@ -63,10 +65,10 @@
                     <a id="projects"></a>
                     <h3>Projects</h3>
                     <ul>
-                        <li><a href="https://ilex.by/ob-ilex/">ilex.by</a></li>
-                        <li><a href="https://github.com/adfugamspes/QA50_32_iLCarro_Web">Test Automation for Car Rental Service Web (learning project)</a></li>
-                        <li><a href="https://github.com/adfugamspes/QA_50_32_PhoneBook_ApiRest_Mobile">Test Automation for Contact Book  Mobile (learning project)</a></li>
+                        <li><a href="https://github.com/adfugamspes/QA50_32_iLCarro_Web">Test Automation for Car Rental Service Web</a></li>
+                        <li><a href="https://github.com/adfugamspes/QA_50_32_PhoneBook_ApiRest_Mobile">Test Automation for Contact Book  Mobile</a></li>
                         <li><a href="https://adfugamspes.github.io/rsschool-cv/">Curriculum Vitae</a></li>
+                        <li><a href="https://ilex.by/ob-ilex/">ilex.by</a></li>
                     </ul>  
                 </div>
                     <div class="languages">
@@ -110,20 +112,27 @@
                     <h4>Responsibilities</h4>
                     <ul>
                         <li>customer research/development/support</li>
-                        <li>documentation writing</li>
                         <li>presentations for CEO and customers</li>
                         <li>brainstorming for new features</li>
                         <li>software requirements approval</li>
-                        <li>work with Confluence, JIRA, Kibana</li>
                         <li>department management</li>
-                        <li>proofreading/editing of analytical materials on Contract Law</li>
                     </ul>
                     <a id="code-example"></a>                   
                     <h3>Code Example</h3>
                     <pre>
                         <code>
-     function greet() {
-         return "hello world!";  
+        public static String getProperty(String fileName, String key) {
+        Properties properties = new Properties();
+        try {
+            FileInputStream fileInputStream = new FileInputStream
+                ("src/test/resources/properties" + File.separator + fileName);
+            properties.load(fileInputStream);
+            return properties.getProperty(key);
+        } catch (IOException e) {
+            System.out.println("exception created");
+            e.printStackTrace();
+            return null;
+        }
     }
                         </code>
                     </pre>
