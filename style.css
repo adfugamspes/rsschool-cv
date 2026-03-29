@@ -85,10 +85,11 @@ li {
   margin: 0 auto;
   flex-wrap: wrap;
   justify-content: flex-start;
+  align-items: stretch
 }
 
 aside {
-  width: 100%;
+  width: 30%;
   height: 100%;
 }
 
@@ -133,6 +134,7 @@ p {
 .additional-info {
   background-color: #343945;
   color: whitesmoke;
+
 }
 
 .header-info {
