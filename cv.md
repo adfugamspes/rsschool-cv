@@ -7,8 +7,14 @@
 - **Discord/Telegram:** @adfugamspes
  
 ## Work Experience 
-YurSpektr LLC, Minsk, Belarus (2016-2021)
 
+Infinya Packaging Ltd (2024-2025)
+packaging and recycled paper products
+
+### Positions
+- Quality Control Specialist (11 months) [infinya.co.il](https://www.infinya.co.il/)
+
+YurSpektr LLC, Minsk, Belarus (2016-2021)
 online service for lawyers and accountants [ilex.by](https://ilex.by/)
 
 ### Positions
@@ -27,6 +33,9 @@ online service for lawyers and accountants [ilex.by](https://ilex.by/)
 - proofreading/editing of analytical materials on Contract Law
 
 ## Education
+Software QA Manual & Automation, Tel-Ran
+Haifa, Israel, 2025-2026, 330 academic hours
+
 Business Analysis for IT, IT-Academy,
 Minsk, Belarus, 2021, 136 academic hours
 
@@ -35,14 +44,14 @@ European Humanities University,
 Vilnius, Lithuania, 2012-2016
 
 ## Languages
-- **English** – Upper-Intermediate
+- **English** – Advanced
 - **Russian, Belarusian** – Native
 - **Hebrew** – Beginner
 
 ## Code Example
 
 ```
-function greet() {
+public static greet() {
  return "hello world!";  
 }
 ```
