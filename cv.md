@@ -51,7 +51,17 @@ Vilnius, Lithuania, 2012-2016
 ## Code Example
 
 ```
-public static greet() {
- return "hello world!";  
-}
+public static String getProperty(String fileName, String key) {
+        Properties properties = new Properties();
+        try {
+            FileInputStream fileInputStream = new FileInputStream
+                    ("src/test/resources/properties" + File.separator + fileName);
+            properties.load(fileInputStream);
+            return properties.getProperty(key);
+        } catch (IOException e) {
+            System.out.println("exception created");
+            e.printStackTrace();
+            return null;
+        }
+    }
 ```
