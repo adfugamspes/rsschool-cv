@@ -16,7 +16,7 @@
 
 ## Work Experience 
 
-Infinya Packaging Ltd (2024-2025)
+### Infinya Packaging Ltd (2024-2025)
 packaging and recycled paper products
 ### Positions
 - Quality Control Specialist (11 months) [infinya.co.il](https://www.infinya.co.il/)
@@ -27,7 +27,7 @@ packaging and recycled paper products
 - reports on quality non-conformities
 
 
-YurSpektr LLC, Minsk, Belarus (2016-2021)
+### YurSpektr LLC, Minsk, Belarus (2016-2021)
 online service for lawyers and accountants [ilex.by](https://ilex.by/)
 ### Positions
 - Product Manager (2 years)
