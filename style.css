@@ -66,7 +66,7 @@ li {
 
 .main-info {
   width: 70%;
-    border-right: 3px solid #FFCC33;
+  
 }
 
 .main-container {
@@ -78,6 +78,7 @@ li {
   justify-content: flex-start;
   align-items: flex-start;
   background-color: #F2F2F2;
+    border-right: 3px solid #FFCC33;
 }
 
 .container-additional-info {
@@ -85,7 +86,7 @@ li {
   margin: 0 auto;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: stretch
+  /* align-items: stretch */
 }
 
 aside {
