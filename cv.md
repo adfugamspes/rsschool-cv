@@ -18,15 +18,17 @@
 
 Infinya Packaging Ltd (2024-2025)
 packaging and recycled paper products
-
 ### Positions
 - Quality Control Specialist (11 months) [infinya.co.il](https://www.infinya.co.il/)
 
----
+### Responsibilities
+- in-process quality control
+- samples and documentation preparation
+- reports on quality non-conformities
+
 
 YurSpektr LLC, Minsk, Belarus (2016-2021)
 online service for lawyers and accountants [ilex.by](https://ilex.by/)
-
 ### Positions
 - Product Manager (2 years)
 - Search Engine Optimization Specialist (1 year 3 months)
