@@ -22,6 +22,8 @@ packaging and recycled paper products
 ### Positions
 - Quality Control Specialist (11 months) [infinya.co.il](https://www.infinya.co.il/)
 
+---
+
 YurSpektr LLC, Minsk, Belarus (2016-2021)
 online service for lawyers and accountants [ilex.by](https://ilex.by/)
 
