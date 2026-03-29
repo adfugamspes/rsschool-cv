@@ -48,7 +48,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 30px 6%;
-  background-color: #EEEEEE;
+  background-color: #F2F2F2;
 }
 
 .my-photo-image {
@@ -76,7 +76,7 @@ li {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #EEEEEE;
+  background-color: #F2F2F2;
 }
 
 .container-additional-info {
@@ -153,7 +153,7 @@ nav a {
   justify-content: space-between;
   align-items: center;
   padding: 10px 3%;
-  background-color: #EEEEEE;
+  background-color: #F2F2F2;
   font-size: smaller;
   }
   }
