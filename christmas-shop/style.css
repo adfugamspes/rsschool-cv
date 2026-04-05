@@ -457,7 +457,7 @@ button:disabled:hover svg {
     position: absolute;
 }
 
-.card-bottom>h4 {
+.card-bottom>h3 {
     font-family: Montserrat;
     font-weight: 600;
     font-style: SemiBold;
@@ -467,7 +467,7 @@ button:disabled:hover svg {
     text-transform: uppercase;
 }
 
-.card-bottom>h3 {
+.card-bottom>h4 {
     font-family: Montserrat;
     font-weight: 600;
     font-style: SemiBold;
@@ -478,21 +478,21 @@ button:disabled:hover svg {
     color: #181C29;
 }
 
-.card:hover .card-bottom h3 {
+.card:hover .card-bottom h4 {
     color: #FF4646;
     transition: all 0.5s ease;
 }
 
 
-.card-bottom.blue h4 {
+.card-bottom.blue h3 {
     color: #4361FF;
 }
 
-.card-bottom.green h4 {
+.card-bottom.green h3 {
     color: #06A44F;
 }
 
-.card-bottom.purple h4 {
+.card-bottom.purple h3 {
     color: #FF43F7;
 }
 
