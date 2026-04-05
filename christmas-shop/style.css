@@ -153,7 +153,7 @@ header {
     color: #FFFFFF
 }
 
-.congrats-container>button {
+.congrats-container>a {
     width: 235px;
     height: 56px;
     padding: 20px 32px;
@@ -170,7 +170,7 @@ header {
     color: #FFFFFF;
 }
 
-.congrats-container>button:hover {
+.congrats-container>a:hover {
     background-color: #FFFFFF;
     color: #181C29;
     transition: all 0.5s ease;
@@ -541,7 +541,7 @@ button:disabled:hover svg {
     color: #FFFFFF;
 }
 
-.CTA-text>button {
+.CTA-text>a {
     width: 235px;
     height: 56px;
     padding: 20px 32px;
@@ -558,7 +558,7 @@ button:disabled:hover svg {
     color: #FFFFFF;
 }
 
-.CTA-text>button:hover {
+.CTA-text>a:hover {
     background-color: #FFFFFF;
     color: #181C29;
     transition: all 0.5s ease;
@@ -635,7 +635,7 @@ button:disabled:hover svg {
     color: #FFFFFF;
 }
 
-.timer-item>h4 {
+.timer-item>h3 {
     font-family: Montserrat;
     font-weight: 600;
     font-style: SemiBold;
